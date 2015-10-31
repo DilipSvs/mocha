@@ -1,0 +1,40 @@
+{
+  "name": "mocha-sample",
+  "version": "1.0.0",
+  "description": "sample mocha app",
+  "scripts": {
+    "test": "gulp",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mocha",
+    "test"
+  ],
+  "dependencies": {
+    "body-parser": "~1.12.4",
+    "cookie-parser": "~1.3.5",
+    "debug": "latest",
+    "express": "~4.12.4",
+    "express-device": "latest",
+    "jade": "~1.9.2",
+    "lodash": "latest"
+    },
+  "devDependencies": {
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "gulp": "latest",
+    "gulp-istanbul": "latest",
+    "gulp-live-server": "latest",
+    "gulp-jscs": "latest",
+    "gulp-jscs-stylish": "latest",
+    "gulp-mocha": "latest",
+    "istanbul": "latest",
+    "jscs": "latest",
+    "mocha": "latest",
+    "sinon": "latest",
+    "sinon-chai": "latest",
+    "supertest": "^1.0.1"
+  },
+  "author": "dilip",
+  "license": "ISC"
+}
