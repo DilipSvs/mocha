@@ -1,5 +1,7 @@
 /**
  * A simple demo function that used for unit testing using mocha and coverage using istanbul
+ * 
+ * Module pattern calculation created 
  * @author Dilip
  *
  * @see application.object
@@ -24,6 +26,14 @@ var calculation = (function () {
     return q;
   };
   
+  /**
+   * set default value
+   * @param   {Number} k defaults to 3 if undefined
+   * @returns {Number} 
+   */
+  myObject.setDefaultNumber = function(k){
+    return k || 3;
+  }
   /**
    * add two number
    * @param   {Number} p default to 0 if not exist

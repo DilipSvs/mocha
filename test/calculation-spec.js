@@ -4,13 +4,22 @@ var app = require('../calculation');
 
 describe('calculation', function() {
   describe('Q', function() {
-    it('q exist', function () {
+    it('q defined', function () {
       expect(app.qValue(5)).to.equal(5);
     });
     it('q undefined', function () {
       expect(app.qValue()).to.equal(3);
     });
   });
+  
+  describe('SET DEFAULT VALUE', function(){
+    it('k defined'), function () {
+      expect(app.setDefaultNumber(10)).to.equal(10);
+    };
+    it('k undefined', function () {
+      expect(app.setDefaultNumber()).to.equal(3);
+    });
+  })
   describe('ADD', function() {
     it('add p,q exist', function () {
       expect(app.add(5,20)).to.equal(25);

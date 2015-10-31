@@ -10,6 +10,10 @@ MochaJS istanbulJS used for unit testing and code coverage
 
   Install dependencies:
 
+```bash
+$ npm install
+```
+
 Start the server:
 
 ```bash
